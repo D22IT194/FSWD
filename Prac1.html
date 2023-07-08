@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSWD PRACTICAL 1</title>
+</head>
+
+<body>
+    <script>
+    function simulateAsyncOperation(callback) {
+    setTimeout(function() {
+    // Simulating an asynchronous operation
+    var result = 42; // Or any other value
+// Call the callback function with the result
+callback(result);
+}, 2000); // Simulating a delay of 2 seconds
+}
+// Example usage
+console.log('Start');
+simulateAsyncOperation(function(result) {
+console.log('Async operation completed with result:', result);
+});
+console.log('End');
+</script>
+</body>
+
+<!-- <body>
+ 
+    task 8
+
+    <script>
+        function checkNumber(number) {
+        if (number < 0) {
+        throw new Error(number +' Number cannot be negative. ');
+        }
+        console.log('The number is:', number);
+        }
+        try {
+        checkNumber(5);
+        checkNumber(-10);
+        } catch (error) {
+        console.log('Error:', error.message);
+        }
+        </script>
+         
+</body> -->
+
+<!-- <script>
+
+    TASK 6
+
+// function myFunction() {
+// var x = 10;
+// let y = 20;
+
+// const z = 30;
+// console.log(x);
+// console.log(y);
+// console.log(z);
+// }
+// myFunction();
+// console.log(x);
+// console.log(y);
+// console.log(z);
+
+
+
+
+  </script> -->
+
+
+  <!-- <body>
+    
+    task 7
+
+    <button id="myButton">Click me</button>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+    button.innerText = 'Button Clicked!';
+    });
+    });
+    </script>
+    </body> -->
+
+
+    <!-- Task 8
+
+    Aim: Error Handling
+    Write a function that takes a number as an argument and throws an error if the number
+    is negative. Handle the error and display a custom error message.
+    Description:
+    In this task, we have to create a function that takes a number as an argument and throws an error
+    if the number is not positive.
+    Source Code: -->
+
+
+  
+
+
+</html>
